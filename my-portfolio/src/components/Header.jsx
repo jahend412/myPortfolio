@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <nav className="flex items-center justify-between bg-white px-6 py-4 dark:bg-gray-800">
-      <a className="text-xl font-bold text-blue-950 dark:text-white" href="/">
+      <a className="text-xl font-bold text-gray-800 dark:text-white" href="/">
         Josh Endemann
       </a>
 
@@ -34,7 +34,7 @@ export default function Header() {
         {/* Theme toggle button */}
         <button
           onClick={toggleTheme}
-          className="text-gray-600 hover:text-blue-950 dark:text-gray-300 dark:hover:text-white"
+          className="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white"
         >
           {theme === 'light' ? <BsMoon size={20} /> : <BsSun size={20} />}
         </button>
@@ -42,7 +42,7 @@ export default function Header() {
         {/* Hamburger button */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="text-blue-950 lg:hidden dark:text-white"
+          className="text-gray-800 lg:hidden dark:text-white"
         >
           <div className="space-y-2">
             <span className="block h-0.5 w-8 bg-current"></span>
