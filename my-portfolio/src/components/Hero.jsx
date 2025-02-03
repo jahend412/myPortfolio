@@ -2,7 +2,7 @@ import ProfilePic from '/profile-pic.png';
 
 export default function Hero() {
   return (
-    <div className="flex flex-col border-b-2 border-gray-800 bg-amber-50 p-6 dark:border-white dark:bg-gray-800 lg:flex-row lg:p-12">
+    <div className="flex flex-col border-b-2 border-gray-800 bg-amber-50 dark:border-white dark:bg-gray-800 lg:flex-row lg:p-12 lg:px-64">
       <div>
         <h3 className="pt-8 text-left text-2xl font-bold text-red-600 lg:pt-20 lg:text-3xl">
           Welcome, my name is Josh

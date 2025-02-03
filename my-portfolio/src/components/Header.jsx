@@ -25,7 +25,7 @@ export default function Header() {
   };
 
   return (
-    <nav className="flex items-center justify-between bg-amber-50 px-6 py-4 dark:bg-gray-800">
+    <nav className="flex items-center justify-between bg-amber-50 py-4 dark:bg-gray-800 lg:px-64">
       <a className="text-xl font-bold text-gray-800 dark:text-white" href="/">
         Josh Endemann
       </a>
