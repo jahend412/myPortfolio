@@ -8,14 +8,14 @@ export default function About() {
     setActiveTab(tab);
   };
   return (
-    <div className="border-solid-2 flex flex-col items-center border-white bg-amber-50 p-4 dark:bg-gray-800 lg:flex-row lg:items-start lg:px-64">
+    <div className="flex flex-col items-center border-b-2 border-gray-800 bg-amber-50 p-4 dark:border-white dark:bg-gray-800 lg:flex-row lg:items-start lg:px-64">
       <img
         src={Pic1}
         alt="Picture"
         className="h-64 w-64 rounded-lg object-cover lg:h-96 lg:w-96"
       />
       <div className="mt-8 lg:mt-0">
-        <h3 className="text-center text-3xl font-bold dark:text-white lg:pl-20 lg:text-left lg:text-4xl">
+        <h3 className="text-center font-serif text-3xl font-bold dark:text-white lg:pl-20 lg:text-left lg:text-4xl">
           About
         </h3>
         <p className="px-4 pt-4 text-left text-lg dark:text-white lg:px-20 lg:pt-8 lg:text-2xl">
