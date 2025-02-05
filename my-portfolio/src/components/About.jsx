@@ -8,7 +8,7 @@ export default function About() {
     setActiveTab(tab);
   };
   return (
-    <div className="flex flex-col items-center border-b-2 border-gray-800 bg-amber-50 p-4 dark:border-white dark:bg-gray-800 lg:flex-row lg:items-start lg:px-64">
+    <div className="flex flex-col items-center border-b-2 border-gray-800 bg-amber-50 p-4 pt-10 dark:border-white dark:bg-gray-800 lg:flex-row lg:items-start lg:px-64">
       <img
         src={Pic1}
         alt="Picture"
