@@ -1,8 +1,12 @@
+import { useNavigate } from 'react-router-dom';
 import DinImg from '/din-site.png';
 import MyMovieImg from '/reactApp.png';
 import ChatAppImg from '/chat-app.png';
+import myMovie from './caseStudy/myMovie';
 
 export default function Projects() {
+  const navigate = useNavigate();
+
   return (
     <div className="flex flex-col bg-amber-50 p-4 dark:bg-gray-800 sm:px-8 lg:px-64">
       <h1 className="p-4 text-center font-serif text-4xl font-bold text-gray-800 dark:text-white">
@@ -31,7 +35,10 @@ export default function Projects() {
               capabilities. This project connected fans to our music while
               strengthening my skills as a developer.
             </p>
-            <button className="mx-auto mt-6 flex items-center rounded bg-gray-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-gray-700 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12">
+            <button
+              onClick={() => navigate('/caseStudy/myMovie')}
+              className="mx-auto mt-6 flex items-center rounded bg-gray-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-gray-700 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12"
+            >
               Case Study
             </button>
           </div>
@@ -55,7 +62,10 @@ export default function Projects() {
               movies to a user specific favorites list, update user info, as
               well as delete their accounts entirely.
             </p>
-            <button className="mx-auto mt-6 flex items-center rounded bg-gray-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-gray-700 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12">
+            <button
+              onClick={() => navigate('/caseStudy/myMovie')}
+              className="mx-auto mt-6 flex items-center rounded bg-gray-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-gray-700 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12"
+            >
               Case Study
             </button>
           </div>
