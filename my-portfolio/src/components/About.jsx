@@ -34,7 +34,7 @@ export default function About() {
           <button
             className={`text-xl font-medium lg:text-3xl ${
               activeTab === 'skills'
-                ? 'text-red-600 underline'
+                ? 'text-blue-600 underline dark:text-red-600'
                 : 'dark:text-white'
             }`}
             onClick={() => handleTabClick('skills')}
@@ -44,7 +44,7 @@ export default function About() {
           <button
             className={`text-xl font-medium lg:text-3xl ${
               activeTab === 'education'
-                ? 'text-red-600 underline'
+                ? 'text-blue-600 underline dark:text-red-600'
                 : 'dark:text-white'
             }`}
             onClick={() => handleTabClick('education')}
@@ -52,13 +52,13 @@ export default function About() {
             Education
           </button>
           <button
-            className={`text-xl font-medium lg:text-3xl ${activeTab === 'technology' ? 'text-red-600 underline' : 'dark:text-white'}`}
+            className={`text-xl font-medium lg:text-3xl ${activeTab === 'technology' ? 'text-blue-600 underline dark:text-red-600' : 'dark:text-white'}`}
             onClick={() => handleTabClick('technology')}
           >
             Technology
           </button>
           <button
-            className={`text-xl font-medium lg:text-3xl ${activeTab === 'hobbies' ? 'text-red-600 underline' : 'dark:text-white'}`}
+            className={`text-xl font-medium lg:text-3xl ${activeTab === 'hobbies' ? 'text-blue-600 underline dark:text-red-600' : 'dark:text-white'}`}
             onClick={() => handleTabClick('hobbies')}
           >
             Offline

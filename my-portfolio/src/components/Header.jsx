@@ -26,7 +26,10 @@ export default function Header() {
 
   return (
     <nav className="flex items-center justify-between bg-amber-50 py-4 dark:bg-gray-800 lg:px-64">
-      <a className="text-xl font-bold text-gray-800 dark:text-white" href="/">
+      <a
+        className="text-xl font-bold text-blue-800 hover:text-blue-600 dark:text-white dark:hover:text-red-600"
+        href="/"
+      >
         Josh Endemann
       </a>
 
@@ -34,7 +37,7 @@ export default function Header() {
         {/* Theme toggle button */}
         <button
           onClick={toggleTheme}
-          className="text-gray-600 hover:text-red-600 dark:text-gray-300 dark:hover:text-red-600"
+          className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
         >
           {theme === 'light' ? <BsMoon size={20} /> : <BsSun size={20} />}
         </button>
@@ -55,31 +58,31 @@ export default function Header() {
         <ul className="hidden gap-6 lg:flex">
           <a
             href=""
-            className="text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300 dark:hover:text-red-600"
+            className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
           >
             About
           </a>
           <a
             href=""
-            className="text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300 dark:hover:text-red-600"
+            className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
           >
             Posts
           </a>
           <a
             href=""
-            className="text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300 dark:hover:text-red-600"
+            className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
           >
             Projects
           </a>
           <a
             href=""
-            className="text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300 dark:hover:text-red-600"
+            className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
           >
             Services
           </a>
           <a
             href=""
-            className="text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300 dark:hover:text-red-600"
+            className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
           >
             Contact
           </a>
@@ -89,34 +92,34 @@ export default function Header() {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="absolute left-0 right-0 top-16 bg-white dark:bg-gray-800 lg:hidden">
-          <ul className="flex flex-col items-center py-4">
+          <ul className="flex flex-col items-center bg-amber-50 py-4 dark:bg-gray-800">
             <a
               href=""
-              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300"
+              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
             >
               About
             </a>
             <a
               href=""
-              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300"
+              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
             >
               Posts
             </a>
             <a
               href=""
-              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300"
+              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
             >
               Projects
             </a>
             <a
               href=""
-              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300"
+              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
             >
               Services
             </a>
             <a
               href=""
-              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-red-600 dark:text-gray-300"
+              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
             >
               Contact
             </a>
