@@ -21,12 +21,12 @@ export default function myMovieCaseStudy() {
         <h4 className="font-extrabold text-blue-800 dark:text-red-600">
           Project from CareerFoundry
         </h4>
-        <div className="flex flex-col justify-center space-x-12 pt-8 lg:flex-row">
+        <div className="flex flex-col items-center gap-4 pt-8 lg:flex-row lg:justify-center lg:gap-12">
           <a
             href="https://mymovieapp44.netlify.app/"
-            className="rounded bg-blue-800 p-3 text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-400"
+            className="rounded bg-blue-800 px-9 py-3 text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-400"
           >
-            Check Out Website
+            Website
           </a>
           <a
             href="https://github.com/jahend412/My_Movie_api"
@@ -42,7 +42,7 @@ export default function myMovieCaseStudy() {
           </a>
         </div>
       </div>
-      <div className="px-72 py-12 font-semibold">
+      <div className="py-12 font-semibold md:px-36 lg:px-64">
         <h2 className="py-4 text-center text-3xl font-bold text-blue-800 underline dark:text-red-600">
           Overview
         </h2>
