@@ -1,19 +1,28 @@
-import Header from '../Header';
-
 export default function myMovieCaseStudy() {
   return (
-    <div>
-      <Header />
-      <div>
-        <h1>myMovie</h1>
-        <p>Case Study</p>
-        <img src="" alt="" />
-        <h3>Josh Endemann</h3>
-        <h4>Project from CareerFoundry</h4>
+    <div className="bg-amber-50 pt-12 dark:bg-gray-800 dark:text-white lg:px-64">
+      <div className="border-solid border-black p-4 text-center dark:border-white">
+        <h1 className="p-4 text-4xl dark:text-red-600">myMovie</h1>
+        <p className="font-serif text-2xl underline dark:text-red-600">
+          Case Study
+        </p>
+        <div className="mx-auto my-8 flex justify-center">
+          <img
+            src="/mymovcs1.png"
+            alt="Title Image"
+            className="md:-2/3 w-full rounded-lg object-cover sm:w-3/4 lg:w-1/2 xl:max-w-4xl"
+          />
+        </div>
+        <h3 className="font-extrabold dark:text-red-600">Josh Endemann</h3>
+        <h4 className="font-extrabold dark:text-red-600">
+          Project from CareerFoundry
+        </h4>
       </div>
-      <div>
-        <h2>Overview</h2>
-        <p>
+      <div className="px-72 py-12 font-semibold">
+        <h2 className="py-4 text-center text-3xl font-bold dark:text-red-600">
+          Overview
+        </h2>
+        <p className="text-lg font-semibold">
           myMovie is a feature-rich movie web application developed using the
           MERN stack (MongoDB, Express, React, and Node). It offers users an
           extensive collection of movies with detailed information about
@@ -21,8 +30,10 @@ export default function myMovieCaseStudy() {
           update their profiles, and curate a personalized list of favorite
           movies.
         </p>
-        <h4>Purpose</h4>
-        <p>
+        <h4 className="py-4 text-center text-2xl font-bold dark:text-red-600">
+          Purpose
+        </h4>
+        <p className="text-lg">
           The primary purpose of this project was to gain a comprehensive
           understanding of both backend and frontend technologies and their
           seamless integration. Developed as part of a full stack immersion
@@ -32,13 +43,15 @@ export default function myMovieCaseStudy() {
           retrieval.
         </p>
         <img src="" alt="" />
-        <h4>Goal</h4>
-        <p>
+        <h4 className="py-4 text-center text-2xl font-bold dark:text-red-600">
+          Goal
+        </h4>
+        <p className="text-lg">
           The goal of myMovie was to create a fully functional, end-to-end
           application that provides users with an immersive movie browsing
           experience. The key objective of the project were as follows:
         </p>
-        <ol>
+        <ol className="list-disc p-4 pl-4">
           <li>
             Movie Database: Develop a robust backend utilizing MongoDB as the
             database to store movie data, including information about directors
@@ -61,12 +74,16 @@ export default function myMovieCaseStudy() {
             conveniently.
           </li>
         </ol>
-        <h4>Duration</h4>
+        <h4 className="py-4 text-center text-3xl font-bold dark:text-red-600">
+          Duration
+        </h4>
         <p>
           The development process for myMovie was divided into two main phases:
           server- side and client-side.
         </p>
-        <h5>Server-side:</h5>
+        <h5 className="py-4 text-center text-xl font-bold dark:text-red-600">
+          Server-side:
+        </h5>
         <p>
           The server-side development, including creating the API with MongoDB
           integration, was completed relatively quickly. Although data research
@@ -74,7 +91,9 @@ export default function myMovieCaseStudy() {
           investment, it was essential to ensure the availability of accurate
           and comprehensive movie information.
         </p>
-        <h5>Client-side:</h5>
+        <h5 className="py-4 text-center text-xl font-bold dark:text-red-600">
+          Client-side:
+        </h5>
         <p>
           The client-side development, which involved understanding and
           problem-solving with React and Redux proved to be more time-consuming.
@@ -91,8 +110,10 @@ export default function myMovieCaseStudy() {
           movie exploration and personalization. The project was completed in
           approximately 2 months.
         </p>
-        <h4>Tools and Methodologies</h4>
-        <ul>
+        <h4 className="py-4 text-center text-2xl font-bold dark:text-red-600">
+          Tools and Methodologies
+        </h4>
+        <ul className="text-center">
           <li>MongoDB</li>
           <li>Express</li>
           <li>React-Redux</li>
@@ -103,8 +124,10 @@ export default function myMovieCaseStudy() {
           <li>Axios</li>
         </ul>
 
-        <h4>Credits</h4>
-        <ul>
+        <h4 className="py-4 text-center text-2xl font-bold dark:text-red-600">
+          Credits
+        </h4>
+        <ul className="text-center">
           <li>Lead Developer: Joshua Endemann</li>
           <li>Tutor: Mathew Henderson</li>
           <li>Mentor: Trey Fletcher</li>
