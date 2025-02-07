@@ -2,7 +2,6 @@ import { useNavigate } from 'react-router-dom';
 import DinImg from '/din-site.png';
 import MyMovieImg from '/reactApp.png';
 import ChatAppImg from '/chat-app.png';
-import myMovie from './caseStudy/myMovie';
 
 export default function Projects() {
   const navigate = useNavigate();
