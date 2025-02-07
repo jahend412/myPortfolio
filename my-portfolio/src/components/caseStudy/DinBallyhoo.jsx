@@ -2,15 +2,15 @@ export default function DinBallyhooCaseStudy() {
   return (
     <div className="bg-amber-50 pt-12 dark:bg-gray-800 dark:text-white lg:px-64">
       <div className="border-solid border-black p-4 text-center dark:border-white">
-        <h1 className="p-4 text-4xl text-blue-800 dark:text-red-600">
+        <h1 className="p-4 text-4xl font-bold text-blue-800 dark:text-red-600">
           Din Ballyhoo Website
         </h1>
-        <p className="font-serif text-2xl text-blue-800 underline dark:text-red-600">
+        <p className="font-serif text-2xl font-semibold text-blue-800 underline dark:text-red-600">
           Case Study
         </p>
         <div className="mx-auto my-8 flex justify-center">
           <img
-            src="/mymovcs1.png"
+            src="/dbcs1.png"
             alt="Title Image"
             className="md:-2/3 w-full rounded-lg object-cover sm:w-3/4 lg:w-1/2 xl:max-w-4xl"
           />
@@ -59,7 +59,13 @@ export default function DinBallyhooCaseStudy() {
           integration. The project also emphasized user management, secure
           authentication, and database-driven content management.
         </p>
-        <img src="/mymovcs2.png" alt="myMovie image" className="p-16" />
+        <div className="flex justify-center p-8">
+          <img
+            src="/dbcs2.png"
+            alt="Din image"
+            className="h-64 w-64 object-contain lg:h-96 lg:w-96"
+          />
+        </div>
         <h4 className="pb-4 text-center text-2xl font-bold text-blue-800 dark:text-red-600">
           Goal
         </h4>
@@ -116,7 +122,7 @@ export default function DinBallyhooCaseStudy() {
           albums, tracks, webcasts, and user profiles. Key aspects of the
           server-side development included:
         </p>
-        <img src="/mymovcs5.png" alt="server side image" className="p-16" />
+        <img src="/dbcs8.png" alt="server side image" className="p-16" />
         <ol className="list-disc p-4 pl-4">
           <li>
             <span className="font-bold text-blue-800 dark:text-red-600">
@@ -157,11 +163,12 @@ export default function DinBallyhooCaseStudy() {
             backend operated as expected.
           </li>
         </ol>
-        <img src="/mymovcs6.png" alt="server side image" className="p-16" />
+        <img src="/dbcs9.png" alt="server side image" className="p-16" />
 
         <h2 className="py-4 text-center text-3xl font-bold text-blue-800 dark:text-red-600">
           Client-side:
         </h2>
+        <img src="/dbcs5.png" alt="server side image" className="p-16" />
         <ol className="list-disc p-4 pl-4">
           <li>
             <span className="font-bold text-blue-800 dark:text-red-600">
@@ -210,6 +217,13 @@ export default function DinBallyhooCaseStudy() {
             user registration, login, and secure access to protected routes.
           </li>
         </ol>
+
+        <img
+          src="/dbcs4.png"
+          alt="server side image"
+          className="h-72 object-contain p-8"
+        />
+
         <br />
         <p>
           Overall, the client-side development focused on delivering a polished,
@@ -221,6 +235,7 @@ export default function DinBallyhooCaseStudy() {
         <h2 className="py-4 text-center text-3xl font-bold text-blue-800 dark:text-red-600">
           Retrospective
         </h2>
+        <img src="/dbcs3.png" alt="server side image" className="p-16" />
         <p>
           Building the band website was a rewarding and challenging experience.
           Developing both the backend and frontend from scratch gave me
