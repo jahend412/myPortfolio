@@ -36,7 +36,7 @@ export default function Projects() {
               strengthening my skills as a developer.
             </p>
             <button
-              onClick={() => navigate('/caseStudy/myMovie')}
+              onClick={() => navigate('/caseStudy/DinBallyhoo')}
               className="mx-auto mt-6 flex items-center rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-gray-700 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12"
             >
               Case Study
