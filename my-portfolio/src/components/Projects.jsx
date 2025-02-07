@@ -37,7 +37,7 @@ export default function Projects() {
             </p>
             <button
               onClick={() => navigate('/caseStudy/DinBallyhoo')}
-              className="mx-auto mt-6 flex items-center rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-gray-700 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12"
+              className="mx-auto mt-6 flex items-center rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12"
             >
               Case Study
             </button>
@@ -64,7 +64,7 @@ export default function Projects() {
             </p>
             <button
               onClick={() => navigate('/caseStudy/myMovie')}
-              className="mx-auto mt-6 flex items-center rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-gray-700 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12"
+              className="mx-auto mt-6 flex items-center rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12"
             >
               Case Study
             </button>
@@ -89,9 +89,6 @@ export default function Projects() {
               send images to the chat room. This app is optimized for both iOS
               and Android.
             </p>
-            <button className="mx-auto mt-6 flex items-center rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-gray-700 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12">
-              Case Study
-            </button>
           </div>
         </div>
       </div>
