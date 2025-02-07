@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import DinBallyhooCaseStudy from './components/caseStudy/DinBallyhoo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
               element={<DinBallyhooCaseStudy />}
             />
           </Routes>
+          <Footer />
         </div>
       </BrowserRouter>
       <div />
