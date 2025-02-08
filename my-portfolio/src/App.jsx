@@ -21,13 +21,15 @@ function App() {
               element={
                 <>
                   <Hero />
-                  <About />
+
                   <Projects />
                   <Contact />
                 </>
               }
             />
-
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/caseStudy/myMovie" element={<MyMovieCase />} />
             <Route
               path="/caseStudy/DinBallyhoo"
