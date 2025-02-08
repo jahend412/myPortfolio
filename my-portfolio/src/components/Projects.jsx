@@ -7,7 +7,7 @@ export default function Projects() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-col bg-amber-50 p-4 dark:bg-gray-800 sm:px-8 lg:px-64">
+    <div className="flex flex-col border-b-2 border-gray-800 bg-amber-50 p-4 pb-16 dark:border-white dark:bg-gray-800 sm:px-8 lg:px-64">
       <h1 className="p-4 text-center font-serif text-4xl font-bold text-gray-800 dark:text-white">
         Projects
       </h1>
