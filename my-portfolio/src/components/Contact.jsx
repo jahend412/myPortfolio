@@ -37,10 +37,14 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col items-center bg-amber-50 pt-20 dark:bg-gray-800">
+    <div className="flex flex-col items-center border-b-2 border-gray-800 bg-amber-50 pb-16 pt-20 dark:border-white dark:bg-gray-800">
       <h1 className="mb-8 text-4xl font-bold text-gray-800 dark:text-white">
         Contact Me
       </h1>
+      <p className="mb-8 text-xl font-bold text-gray-800 dark:text-white">
+        Let's connect about web development opportunities. I look forward to our
+        conversation.
+      </p>
 
       <form
         onSubmit={handleSubmit}
