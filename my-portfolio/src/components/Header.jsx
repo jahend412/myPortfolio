@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { BsSun, BsMoon } from 'react-icons/bs';
-import Projects from './Projects';
-import About from './About';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -58,29 +57,29 @@ export default function Header() {
 
         {/* Desktop menu */}
         <ul className="hidden gap-6 lg:flex">
-          <a
-            href="/about"
+          <Link
+            to="/about"
             className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
           >
             About
-          </a>
-          <a
-            href="/projects"
+          </Link>
+          <Link
+            to="/projects"
             className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
           >
             Projects
-          </a>
-          <a
-            href="/contact"
-            className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
-          >
-            Contact
-          </a>
+          </Link>
           <a
             href="https://dev.to/jahend412"
             className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
           >
             Posts
+          </a>
+          <a
+            href="/Joshua_Endemann_Resume.pdf"
+            className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
+          >
+            Resume
           </a>
         </ul>
       </div>
@@ -89,29 +88,36 @@ export default function Header() {
       {isMenuOpen && (
         <div className="absolute left-0 right-0 top-16 bg-white dark:bg-gray-800 lg:hidden">
           <ul className="flex flex-col items-center bg-amber-50 py-4 dark:bg-gray-800">
-            <a
-              href="/about"
+            <Link
+              to="/about"
               className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
             >
               About
-            </a>
-            <a
-              href="/projects"
+            </Link>
+            <Link
+              to="/projects"
               className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
             >
               Projects
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              to="/contact"
               className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
             >
               Contact
-            </a>
+            </Link>
+
             <a
               href="https://dev.to/jahend412"
               className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
             >
               Posts
+            </a>
+            <a
+              href="/Joshua_Endemann_Resume.pdf"
+              className="w-full py-2 text-center text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-300 dark:hover:text-red-600"
+            >
+              Resume
             </a>
           </ul>
         </div>
