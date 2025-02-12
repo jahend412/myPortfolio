@@ -41,14 +41,14 @@ export default function Contact() {
       <h1 className="mb-8 text-4xl font-bold text-gray-800 dark:text-white">
         Contact Me
       </h1>
-      <p className="mb-8 text-xl font-bold text-gray-800 dark:text-white">
+      <p className="large:text-xl mb-8 text-center text-lg font-bold text-gray-800 dark:text-white">
         Let's connect about web development opportunities. I look forward to our
         conversation.
       </p>
 
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-lg space-y-6 rounded-lg bg-white p-8 shadow-md dark:bg-gray-700"
+        className="w-full max-w-lg space-y-6 rounded-lg border-2 bg-amber-50 p-8 shadow-md dark:bg-gray-700"
       >
         <div>
           <label
@@ -64,7 +64,7 @@ export default function Contact() {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+            className="w-full rounded-md border border-gray-300 bg-amber-50 p-2 focus:border-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
           />
         </div>
 
@@ -82,7 +82,7 @@ export default function Contact() {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+            className="w-full rounded-md border border-gray-300 bg-amber-50 p-2 focus:border-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
           />
         </div>
 
@@ -100,7 +100,7 @@ export default function Contact() {
             onChange={handleChange}
             required
             rows="4"
-            className="w-full rounded-md border border-gray-300 p-2 focus:border-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+            className="w-full rounded-md border border-gray-300 bg-amber-50 p-2 focus:border-blue-500 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-white"
           ></textarea>
         </div>
 
