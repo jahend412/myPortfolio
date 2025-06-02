@@ -41,17 +41,18 @@ export default function Hero() {
             About
           </h3>
           <p className="px-4 pt-4 text-left text-lg dark:text-white lg:px-20 lg:pt-8 lg:text-2xl">
-            As a web developer, I combine technical skills with a strong drive
-            for excellence. I focus on building efficient, user-focused
-            solutions while actively expanding my expertise across the
-            development stack. My approach combines analytical problem-solving
-            with creative implementation, allowing me to tackle complex
-            challenges effectively. I thrive in collaborative enviorments where
-            I can contribute to team success and learn from others while
-            delivering quality results. With a commitment to continuous growth
-            and a passion for clean, functional code, I bring both technical
-            capability and reliable teamwork to every project. Learn more about
-            me on my about page.
+            From the pipeline to programming, I bring a strong work ethic rooted
+            in production and communication. I apply the same precision required
+            for natural gas pipeline systems to building web applications -
+            where attention to detail and systematic thinking are just as
+            critical. I specialize in the MERN stack, with deep focus on Node.js
+            and React. Currently expanding into AWS and financial tech while
+            building applications that solve real problems. My projects range
+            from movie databases to real-time chat applications, each one
+            strengthening my full-stack capabilities. When I'm not coding,
+            you'll find me with my family or playing music with my bands. I
+            thrive on teams that value hard work and clear communication to
+            build products.
           </p>
           <div className="flex flex-wrap justify-center gap-4 pb-4 pt-6 lg:justify-start lg:pl-20">
             <button
