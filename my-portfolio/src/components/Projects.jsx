@@ -119,6 +119,41 @@ export default function Projects() {
           </div>
         </div>
       </div>
+
+      <div className="flex flex-col">
+        <h1 className="p-4 text-center font-serif text-4xl font-bold text-gray-800 dark:text-white">
+          Current Project
+        </h1>
+        <div className="flex flex-col items-center lg:flex-row lg:px-4">
+          <div className="mt-4 w-full px-4 lg:mt-0 lg:px-8">
+            <h1 className="pb-8 text-center font-serif text-2xl font-bold dark:text-white sm:text-3xl">
+              NestWorth - A Budget App
+            </h1>
+            <p className="text-base dark:text-white sm:text-lg lg:text-2xl">
+              nestWorth is a full-stack budgeting application I'm building to
+              help users take control of their finances through intelligent
+              expense tracking and visual analytics. Built with the MERN stack,
+              the app allows users to import transactions via CSV, automatically
+              categorizes spending, and provides insights through interactive
+              dashboards. Key features include customizable budget categories,
+              expense tracking, goal setting, and spending pattern analysis. I
+              am planning to add AWS services for cloud infrastructure and
+              exploring bank API integrations for future automated syncing. This
+              project demonstrates my ability to handle financial data, create
+              intuitive user interfaces, and build practical solutions for
+              everyday problems.
+            </p>
+            <div className="mt-6 flex justify-center lg:mt-12">
+              <a
+                href="https://github.com/jahend412/nestWorth"
+                className="rounded bg-blue-800 px-8 py-3 text-center font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-500"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
