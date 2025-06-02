@@ -34,12 +34,26 @@ export default function Projects() {
               capabilities. This project connected fans to our music while
               strengthening my skills as a developer.
             </p>
-            <button
-              onClick={() => navigate('/caseStudy/DinBallyhoo')}
-              className="mx-auto mt-6 flex items-center rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12"
-            >
-              Case Study
-            </button>
+            <div className="mt-6 flex flex-row gap-4 lg:mt-12">
+              <button
+                onClick={() => navigate('/caseStudy/DinBallyhoo')}
+                className="flex-1 rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-500"
+              >
+                Case Study
+              </button>
+              <a
+                href="https://din-ballyhoo.vercel.app/"
+                className="flex-1 rounded bg-blue-800 p-3 text-center font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-400"
+              >
+                Website
+              </a>
+              <a
+                href="https://github.com/jahend412/din-ballyhoo"
+                className="flex-1 rounded bg-blue-800 p-3 text-center font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-400"
+              >
+                Code
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex flex-col items-center lg:flex-row lg:pr-4">
@@ -61,12 +75,26 @@ export default function Projects() {
               movies to a user specific favorites list, update user info, as
               well as delete their accounts entirely.
             </p>
-            <button
-              onClick={() => navigate('/caseStudy/myMovie')}
-              className="mx-auto mt-6 flex items-center rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-500 lg:mt-12"
-            >
-              Case Study
-            </button>
+            <div className="mt-6 flex flex-row gap-4 lg:mt-12">
+              <button
+                onClick={() => navigate('/caseStudy/myMovie')}
+                className="flex-1 rounded bg-blue-800 p-3 font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-500"
+              >
+                Case Study
+              </button>
+              <a
+                href="https://mymovieapp44.netlify.app/"
+                className="flex-1 rounded bg-blue-800 p-3 text-center font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-400"
+              >
+                Website
+              </a>
+              <a
+                href="https://github.com/jahend412/myMovie-client"
+                className="flex-1 rounded bg-blue-800 p-3 text-center font-semibold text-white hover:-translate-y-1 hover:bg-blue-600 dark:bg-red-600 dark:hover:bg-red-400"
+              >
+                Code
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex flex-col items-center lg:flex-row lg:pl-36 lg:pr-4">
